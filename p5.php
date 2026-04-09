@@ -12,17 +12,17 @@
         metoda ta powołuje że przesłane dane są widoczne w adresie strony
     </p>
 
-    <form action="p4.php" method="GET">
+    <form action="p5.php" method="POST">
         <p>Imie: <input type="text" name="imie"></p>
         <p>Wiek: <input type="number" name="wiek"></p>
         <input type="submit" name="dane" value="wyślij">
     </form>
 
     <?php
-    if($_GET["dane"])
+    if($_POST["dane"])
     {
-    $imie = $_GET["imie"];
-    $wiek = $_GET["wiek"];
+    $imie = $_POST["imie"];
+    $wiek = $_POST["wiek"];
 
 
     echo "<h1>Witaj $imie. Podałeś, że masz $wiek lat.</h1>";
