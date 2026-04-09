@@ -6,20 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 style = 'color:blue'>Porownanie skryptow JS z PHP </h1>
-    <?php
-    for($i = 1; $i<=3; $i++)
-        {
-echo "<h1 style = 'color:red'>Pierwsza aplikacja php</h1>";
-        }
-?>
-
-<script>
-    for(let i = 1; i<=3; i++)
-    {
-    document.write("<h1 style = 'color: green'>Tekst pochodzacy z java script</h1>")
-    }   
-</script>
-    
+    <a href = "p1.php"><button>Przykład 1</button</a>
+    <a href = "p2.php"><button>Przykład 2</button</a>
+    <a href = "p3.php"><button>Przykład 3</button</a>
+    <a href = "p4.php"><button>Przykład 4</button</a>
 </body>
 </html>
