@@ -12,5 +12,7 @@
     <a href = "p4.php"><button>Przykład 4</button</a>
     <a href = "p5.php"><button>Przykład 5</button</a>
     <a href = "p6.php"><button>Przykład 6</button</a>
+    <a href = "p7.php"><button>Przykład 7</button</a>
+    <a href = "p8.php"><button>Przykład 8</button</a>
 </body>
 </html>
