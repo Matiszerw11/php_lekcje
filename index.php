@@ -21,6 +21,24 @@
     <a href = "p13_cw1.php"><button>P13_cw1</button</a>
     <a href = "p14_cw2.php"><button>P14_cw2</button</a>
     <a href = "p15_cw3.php"><button>P15_cw3</button</a>
-    <a href = "p16_cw4.php"><button>P15_cw3</button</a>
+    <a href = "p16_cw4.php"><button>P16_cw4</button</a>
+    <a href = "p17_funkcje1.php"><button>P17_funkcje1</button</a>
+    <a href = "p18_funkcje2.php"><button>P18_funkcje2</button</a>
+    <a href = "p19_funkcje3.php"><button>P19_funkcje3</button</a>
+    <a href = "p20_funkcje4.php"><button>P20_funkcje4</button</a>
+    <a href = "p21_funkcje5.php"><button>P21_funkcje5</button</a>
+    <a href = "p22_kliker.php"><button>P22_kliker</button</a>
+    <a href = "p23_funkcje6.php"><button>P23_funkcje6</button</a>
+    <a href = "p24_funkcje7.php"><button>p24_funkcje7</button</a>
+    <a href = "p25_adresy.php"><button>p25_adresy</button</a>
+    <a href = "p26_tab.php"><button>p26_tab</button</a>
+    <a href = "p27_tab.php"><button>p27_tab</button</a>
+    <a href = "p28_czas.php"><button>p28_czas</button</a>
+    <a href = "p29_czas2.php"><button>p29_czas2</button</a>
+    <a href = "p30_czas3.php"><button>p30_czas3</button</a>
+    <a href = "p31_tabas.php"><button>p31_tabas</button</a>
+    <a href = "p32_tabas.php"><button>p32_tabas</button</a>
+    <a href = "p33_all.php"><button>p33_all</button</a>
+    <a href = "p34_bd1.php"><button>p34_bd1</button</a>
 </body>
 </html>
