@@ -25,24 +25,8 @@
             $sql1 = "SELECT ImieKlienta, NazwiskoKlienta, MiastoKlienta from klienci;";
             $ret = mysqli_query($conn, $sql1);
             $ile = mysqli_num_rows($ret);
-            echo "<br>Pobrałeś $ile rekordów";
+          
 
-/*
-            if($ile > 0)
-                {
-                    $row = mysqli_fetch_assoc($ret);
-                    echo "<br>Pierwszy wiersz";
-                    echo "<br>Imie: ".$row["ImieKlienta"]." <br>Nazwisko: ".$row["NazwiskoKlienta"]." <br>Miasto: ".$row["MiastoKlienta"];
-                    echo "<br><br>";
-                    $row = mysqli_fetch_assoc($ret);
-                    echo "<br>Drugi wiersz";
-                    echo "<br>Imie: ".$row["ImieKlienta"]." <br>Nazwisko: ".$row["NazwiskoKlienta"]." <br>Miasto: ".$row["MiastoKlienta"];
-                    echo "<br><br>";
-                    $row = mysqli_fetch_assoc($ret);
-                    echo "<br>Trzeci wiersz";
-                    echo "<br>Imie: ".$row["ImieKlienta"]." <br>Nazwisko: ".$row["NazwiskoKlienta"]." <br>Miasto: ".$row["MiastoKlienta"];
-                }
-*/
 
 echo "<table border='1'>";
 echo "<tr>";
@@ -67,7 +51,7 @@ echo "</table>";
     $sql2 = "SELECT NazwaRoweru, OpisRoweru, CenaJednostkowa, NazwaProducenta, NazwaKategorii from rowery inner join producenci on producenci.IDproducenta = rowery.IDproducenta inner join kategorierowerow on rowery.IDkategorii = kategorierowerow.IDkategorii;";
     $ret2 = mysqli_query($conn, $sql2);
     $ile2 = mysqli_num_rows($ret2);
-    echo "<br>Pobrałeś $ile2 rekordów";
+
 
 
 echo "<table border='1'>";
@@ -100,3 +84,5 @@ mysqli_close($conn);
     
 </body>
 </html>
+
+

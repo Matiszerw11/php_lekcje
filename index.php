@@ -40,5 +40,9 @@
     <a href = "p32_tabas.php"><button>p32_tabas</button</a>
     <a href = "p33_all.php"><button>p33_all</button</a>
     <a href = "p34_bd1.php"><button>p34_bd1</button</a>
+    <a href = "p35_bd2.php"><button>p35_bd2</button</a>
+    <a href = "p36_bd3.php"><button>p36_bd3</button</a>
+    <a href = "p37_bd4.php"><button>p37_bd4</button</a>
+    <a href = "p38_bd5.php"><button>p38_bd5</button</a>
 </body>
 </html>
