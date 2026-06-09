@@ -44,5 +44,7 @@
     <a href = "p36_bd3.php"><button>p36_bd3</button</a>
     <a href = "p37_bd4.php"><button>p37_bd4</button</a>
     <a href = "p38_bd5.php"><button>p38_bd5</button</a>
+    <a href = "p39_bd6.php"><button>p39_bd6</button</a>
+    <a href = "p40_bd7.php"><button>p40_bd7</button</a>
 </body>
 </html>
